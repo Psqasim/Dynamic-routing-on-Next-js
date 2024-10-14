@@ -3,11 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Nav from "@/compenent/Navbar";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
+
 
 
 export const metadata: Metadata = {

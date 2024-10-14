@@ -2,7 +2,10 @@
 import Image from "next/image";
 import page from "/not.jpg";
 import info from "/info.jpg";
-export default function Country({params}:any) {
+interface Params {
+  country_name: string;
+}
+export default function Country({ params }: { params: Params }){
   const Country_info:{
     name: string;
     population: string;
