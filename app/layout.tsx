@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+
 import "./globals.css";
 import Nav from "@/compenent/Navbar";
 
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const geistSans = 'Some value';
 
 
 export const metadata: Metadata = {

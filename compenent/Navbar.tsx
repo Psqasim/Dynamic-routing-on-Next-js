@@ -16,9 +16,9 @@ export default function Nav() {
           />
           {/* Navigation links on the right */}
           <ul>
-            <li><Link href="/Navbar/home">HOME</Link></li>
-            <li><Link href="/Navbar/about">ABOUT</Link></li>
-            <li><Link href="/Navbar/country">COUNTRY</Link></li>
+            <li><Link href="/Navbar/home">home</Link></li>
+            <li><Link href="/Navbar/about">about</Link></li>
+            <li><Link href="/Navbar/country">country</Link></li>
           </ul>
         </nav>
        
