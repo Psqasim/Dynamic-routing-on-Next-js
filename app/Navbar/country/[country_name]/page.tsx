@@ -5,12 +5,12 @@ import info from "/info.jpg";
 
 
 interface Params {
-  country_name: string;
+  country_name: any;
 }
 
 
 
-export default function Country({ params }: { params: Params }){
+export default function Country({ params }:any ){
   const Country_info:{
     name: string;
     population: string;
