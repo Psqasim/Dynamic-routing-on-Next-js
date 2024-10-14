@@ -3,7 +3,7 @@ import Image from "next/image";
 import page from "/not.jpg";
 import info from "/info.jpg";
 export default function Country({params}:any) {
-  let Country_info:{
+  const Country_info:{
     name: string;
     population: string;
     capital:string;
@@ -52,7 +52,7 @@ export default function Country({params}:any) {
            return Country_info.find(country=>country.name.toLowerCase()==country_url.toLocaleLowerCase())
   }
 
-  let answer= findCount(params.country_name)
+  const answer= findCount(params.country_name)
     
   
 

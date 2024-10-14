@@ -25,11 +25,11 @@ return(
                   className="world "/>
           <div className="bg-teal-500"	>
           <p className="text-balance, my-16	">
-        "In this project, I created a navigation bar that allows users to easily navigate between the <a className="underline decoration-slate-60">Home and About pages.</a>
+          &quot;In this project, I created a navigation bar that allows users to easily navigate between the <a className="underline decoration-slate-60">Home and About pages.</a>
         The About page explains the assignment I received, which involved implementing <a className="underline decoration-slate-60">dynamic routing</a> to display details of five different countries. 
         <br />
       
-        If <a className="underline decoration-slate-60"> users attempt </a>to access a country that doesn't exist, they will see a custom <a className="underline decoration-slate-60"> 404 error message indicating that the page was not found</a>".
+        If <a className="underline decoration-slate-60"> users attempt </a>to access a country that doesn&quot;t exist, they will see a custom <a className="underline decoration-slate-60"> 404 error message indicating that the page was not found</a>&quot;.
       </p>
       
       </div>
