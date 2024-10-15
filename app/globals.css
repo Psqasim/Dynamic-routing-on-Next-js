@@ -57,12 +57,12 @@ body {
 }
 
 .nav li a:hover {
-  color: #33fffc; /* Hover effect for links */
+  color: #33fffc; 
 }
 
 /* Style for the image logo on the left */
 .bat {
-  margin-right: auto; /* Push the nav links to the right */
+  margin-right: auto; 
   border-radius: 50px;
   width: 35px;
 
@@ -71,24 +71,24 @@ body {
 .world{
   border-radius: 110px;
   width: 305px;
-margin-left: 450px;
+margin-left: 40px;
 }
 .about{
   border-radius:80px;
   width: 355px;
-margin-left: 450px;
+margin-left: 40px;
 }
 
 .map{
   border-radius:80px;
   width: 355px;
-margin-left: 450px;
+margin-left: 40px;
 }
 
 .info{
   border-radius:50px;
   width: 240px;
-margin-left: 490px;
+margin-left: 40px;
 }
 
 footer {
